@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online ON35 | Semana 16 | 2024 | Professora [Tayná Boaes](www.linkedin.com/in/taynaboaesandrade)
+Turma Online ON35 | Semana 16 | 2024 | Professora [Tayná Boaes](https://www.linkedin.com/in/taynaboaesandrade/)
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
