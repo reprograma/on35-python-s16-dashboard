@@ -1,10 +1,30 @@
 # Exercício de Sala 🏫  
 
-## Nome do Exercicio
+## Nome do Exercicio: evoluindo dashboard no Tableau
+- Bases utilizadas: `base_final_s14_olist.csv` e `estados_brasileiros.csv` (opcional)
 
-- Explicação do exercício: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci.
-Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-Aliquam leo nibh, tempus sed rhoncus et, ultrices vitae orci. Donec erat mauris, laoreet in tortor vel, eleifend suscipit nibh. 
+## Passos importantes para construção do nosso dasboard:
+
+### Como criar um Campo Calculado?
+Análise > Criar campo calculado
+
+Exemplo:
+
+Função para retorna em dias, o tempo levado entre o pedido do cliente e a entrega.
+
+
+`DATEDIFF('day', [Order Purchase Timestamp], [Order Delivered Customer Date])`
+
+Função para retornar classificação
+
+
+`RANK(SUM([Price]))`
+
+### Como criar um parâmetro? 
+ Clique com botão direito no campo de interesse > Criar > Parâmetro 
+
+
+
 ---
 
 Terminou o exercício? Dá uma olhada nessa checklist e confere se tá tudo certinho, combinado?!
